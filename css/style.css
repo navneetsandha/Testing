@@ -1,0 +1,115 @@
+body {
+	background-color:antiquewhite;
+	margin:0px;
+	padding:0px;
+	text-align:left;
+	color:#849c83;
+}
+
+p {
+	font:normal 16px Arial, Helvetica, sans-serif;
+	color:#849c83;
+	line-height:20px;
+	margin-bottom:12px;
+}
+header, nav, section, article, aside, footer, hgroup {
+	display: block;
+}
+
+.wrapper{
+	float:left;
+	width:100%;
+
+}
+#header-wrapper{
+	float: left;
+	width: 100%;
+}
+#header{
+	float:left;
+	width:100%;
+}
+#header header{
+	width:970px;
+	min-height: 140px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+	background-color: burlywood;
+}
+
+.wrapper header #logo {
+	position:absolute;
+	left:32px;
+	z-index:99;
+}
+header nav {
+	float: left;
+	width:100%;
+	height:60px;
+}
+header nav ul {
+	float:right;
+	width:auto;
+	list-style:none;
+}
+header nav ul li {
+	float:left;
+	width:auto;
+	padding:38px 30px;
+	margin:0;
+	
+}
+header nav ul li a{
+	display: block;
+  	color: #849c83;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+header nav ul li a:hover{
+	background-color: wheat;
+  	color: black;
+}
+
+
+/*header nav ul li a.active{
+	background-color: antiquewhite;
+  	color: black;
+}*/
+
+#first-container{
+	width: 970px;
+	height:100%;
+	margin: auto;
+	background-color: wheat;
+}
+
+#first-container h2{
+	padding-top: 10%;
+	padding-left: 30%;
+	margin-top: 10%;
+}
+#first-container p{
+	padding-left:23%;
+}
+#second-container{
+	width: 970px;
+	height:100%;
+	margin: auto;
+	background-color: wheat;
+}
+#second-container .accounts h2{
+	padding-top: 10%;
+	padding-left: 30%;
+	margin-top: 10%;
+}
+
+#submit{
+	margin-left: 40%;
+	margin-bottom: 5%;
+	width: 20px;
+}
+
+
